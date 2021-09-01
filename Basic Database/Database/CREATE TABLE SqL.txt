@@ -1,0 +1,38 @@
+CREATE TABLE `table1` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `firstname` varchar(100) NOT NULL,
+  `lastname` varchar(100) NOT NULL,
+ `middlename` varchar(100) NOT NULL,
+`no` int(100) NOT NULL,
+  `street` varchar(100) NOT NULL,
+ `city` varchar(100) NOT NULL,
+ `municipality` varchar(100) NOT NULL,
+ `province` varchar(100) NOT NULL,
+  `sss` int(100) NOT NULL,
+ `tin` int(100) NOT NULL,
+`contact` int(100) NOT NULL,
+`email` varchar(100) NOT NULL,
+`nationality` varchar(100) NOT NULL,
+`gender` varchar(30) NOT NULL,
+`birthplace` varchar(100) NOT NULL,
+`birthdate` date NOT NULL,
+`education` varchar(100) NOT NULL,
+`status` varchar(100) NOT NULL,
+`hair` varchar(100) NOT NULL,
+`eyes` varchar(100) NOT NULL,
+`built` varchar(100) NOT NULL,
+`complexion` varchar(100) NOT NULL,
+PRIMARY KEY (id)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE `table2` (
+  `studno` int(11) NOT NULL AUTO_INCREMENT,
+  `lastname` varchar(100) NOT NULL,
+  `firstname` varchar(100) NOT NULL,
+ `middlename` varchar(100) NOT NULL,
+`username` int(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+ 
+ PRIMARY KEY (id)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
